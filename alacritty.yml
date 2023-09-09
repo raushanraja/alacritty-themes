@@ -1,0 +1,259 @@
+window:
+  opacity: 0.50 
+  padding:
+    x: 8
+    y: 2
+  dynamic_padding: false
+
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    # family: Victor Mono
+    # family: CaskaydiaCove Nerd Font Mono
+    # family: Yomogi
+    style: Regular
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style:  Bold
+    # family: CaskaydiaCove Nerd Font Mono
+    # style:  Bold
+    # family: Victor Mono
+    # style:  Bold
+
+  italic:
+    # family: JetBrainsMono Nerd Font
+    # style: Medium Italic
+    # family: CaskaydiaCove Nerd Font Mono
+    # style:  Italic
+    family: Victor Mono
+    style:  Medium Italic
+
+  bold_italic:
+    # family: JetBrainsMono Nerd Font
+    # style: Bold Italic  
+    # family: CaskaydiaCove Nerd Font Mono
+    # style: SemiBold Italic  
+    family: Victor Mono
+    style: Bold Italic
+    
+  size: 10.5
+
+  offset:
+    x: 0 
+    y: 8 
+
+
+# colors:
+#   primary:
+#     foreground: '#64526F'
+#     background: '#FAF7EE'
+
+#   cursor:
+#     cursor:     '#64526F'
+#     text:       '#FAF7EE'
+#   normal:
+#     black:      '#FAF7EE'
+#     red:        '#DF201C'
+#     green:      '#29A0AD'
+#     yellow:     '#DB742E'
+#     blue:       '#3980C2'
+#     magenta:    '#2C9473'
+#     cyan:       '#6B3062'
+#     white:      '#64526F'
+
+#   bright:
+#     black:      '#9F93A1'
+#     red:        '#DF201C'
+#     green:      '#29A0AD'
+#     yellow:     '#DB742E'
+#     blue:       '#3980C2'
+#     magenta:    '#2C9473'
+#     cyan:       '#6B3062'
+#     white:      '#64526F'
+
+# Colors (Snazzy)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#282a36'
+#     foreground: '#eff0eb'
+
+#   # Normal colors
+#   normal:
+#     black:   '#282a36'
+#     red:     '#ff5c57'
+#     green:   '#5af78e'
+#     yellow:  '#f3f99d'
+#     blue:    '#57c7ff'
+#     magenta: '#ff6ac1'
+#     cyan:    '#9aedfe'
+#     white:   '#f1f1f0'
+
+#   # Bright colors
+#   bright:
+#     black:   '#686868'
+#     red:     '#ff5c57'
+#     green:   '#5af78e'
+#     yellow:  '#f3f99d'
+#     blue:    '#57c7ff'
+#     magenta: '#ff6ac1'
+#     cyan:    '#9aedfe'
+#     white:   '#f1f1f0'
+
+# Colors (Tomorrow Night)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#1d1f21'
+#     foreground: '#c5c8c6'
+
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '#1d1f21'
+#     cursor: '#ffffff'
+
+#   # Normal colors
+#   normal:
+#     black:   '#1d1f21'
+#     red:     '#cc6666'
+#     green:   '#b5bd68'
+#     yellow:  '#e6c547'
+#     blue:    '#81a2be'
+#     magenta: '#b294bb'
+#     cyan:    '#70c0ba'
+#     white:   '#373b41'
+
+#   # Bright colors
+#   bright:
+#     black:   '#666666'
+#     red:     '#ff3334'
+#     green:   '#9ec400'
+#     yellow:  '#f0c674'
+#     blue:    '#81a2be'
+#     magenta: '#b77ee0'
+#     cyan:    '#54ced6'
+#     white:   '#282a2e'
+
+# # # # Colors (Dracula)
+# colors:
+#    # Default colors
+#    primary:
+#      background: '#282a36'
+#      foreground: '#f8f8f2'
+#
+#    # Normal colors
+#    normal:
+#      black:   '#000000'
+#      red:     '#ff5555'
+#      green:   '#50fa7b'
+#      yellow:  '#f1fa8c'
+#      blue:    '#caa9fa'
+#      magenta: '#ff79c6'
+#      cyan:    '#8be9fd'
+#      white:   '#bfbfbf'
+#
+#    # Bright colors
+#    bright:
+#      black:   '#575b70'
+#      red:     '#ff6e67'
+#      green:   '#5af78e'
+#      yellow:  '#f4f99d'
+#      blue:    '#caa9fa'
+#      magenta: '#ff92d0'
+#      white:   '#e6e6e6'
+#      cyan:    '#9aedfe'
+
+
+# # Colors (Cobalt 2)
+# colors:
+#   cursor:
+#     text: '#fefff2'
+#     cursor: '#f0cc09'
+
+#   selection:
+#     text: '#b5b5b5'
+#     background: '#18354f'
+
+#   primary:
+#     background: '#132738'
+#     foreground: '#ffffff'
+
+#   normal:
+#     black:   '#000000'
+#     red:     '#ff0000'
+#     green:   '#38de21'
+#     yellow:  '#ffe50a'
+#     blue:    '#1460d2'
+#     magenta: '#ff005d'
+#     cyan:    '#00bbbb'
+#     white:   '#bbbbbb'
+
+#   bright:
+#     black:   '#555555'
+#     red:     '#f40e17'
+#     green:   '#3bd01d'
+#     yellow:  '#edc809'
+#     blue:    '#5555ff'
+#     magenta: '#ff55ff'
+#     cyan:    '#6ae3fa'
+#     white:   '#ffffff'    
+# # Colors (Ayu Mirage)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#202734'
+#     foreground: '#CBCCC6'
+
+#   # Normal colors
+#   normal:
+#     black: '#191E2A'
+#     red: '#FF3333'
+#     green: '#BAE67E'
+#     yellow: '#FFA759'
+#     blue: '#73D0FF'
+#     magenta: '#FFD580'
+#     cyan: '#95E6CB'
+#     white: '#C7C7C7'
+
+#   # Bright colors
+#   bright:
+#     black: '#686868'
+#     red: '#F27983'
+#     green: '#A6CC70'
+#     yellow: '#FFCC66'
+#     blue: '#5CCFE6'
+#     magenta: '#FFEE99'
+#     cyan: '#95E6CB'
+#     white: '#FFFFFF'
+
+
+# # # Colors (Tender)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#282828'
+#     foreground: '#eeeeee'
+
+#   # Normal colors
+#   normal:
+#     black:   '#282828'
+#     red:     '#f43753'
+#     green:   '#c9d05c'
+#     yellow:  '#ffc24b'
+#     blue:    '#b3deef'
+#     magenta: '#d3b987'
+#     cyan:    '#73cef4'
+#     white:   '#eeeeee'
+
+#   # Bright colors
+#   bright:
+#     black:   '#4c4c4c'
+#     red:     '#f43753'
+#     green:   '#c9d05c'
+#     yellow:  '#ffc24b'
+#     blue:    '#b3deef'
+#     magenta: '#d3b987'
+#     cyan:    '#73cef4'
+#     white:   '#feffff'
